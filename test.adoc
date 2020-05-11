@@ -19,12 +19,12 @@
 :table-caption: 表
 :figure-caption: 図
 :xrefstyle: short
-:docname: = Asciidocドキュメント開発テスト
+:docname: = Asciidocドキュメント開発機能テスト
 :author:
 :revnumber: 0.1
 :revdate: 2020/05/04
 
-= Asciidocドキュメント開発テスト
+= Asciidocドキュメント開発機能テスト
 
 == 目的
 本ドキュメントは、GitHub上でのドキュメント開発機能をテストすることを目的とする。
