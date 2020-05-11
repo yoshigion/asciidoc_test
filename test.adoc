@@ -1,0 +1,56 @@
+:lang: ja
+:doctype: book
+:toc: left
+:toclevels: 3
+:toc-title: 目次
+:sectnums:
+:sectnumlevels: 3
+:sectlinks:
+:chapter-label:
+:section-label:
+:appendix-label:
+:chapter-refsig:
+:section-refsig:
+:appendix-refsig:
+:imagesdir: ./_images
+:icons: font
+:source-highlighter: coderay
+:example-caption: 例
+:table-caption: 表
+:figure-caption: 図
+:xrefstyle: short
+:docname: = Asciidocドキュメント開発テスト
+:author:
+:revnumber: 0.1
+:revdate: 2020/05/04
+
+= Asciidocドキュメント開発テスト
+
+== 目的
+本ドキュメントは、GitHub上でのドキュメント開発機能をテストすることを目的とする。
+
+==== 図の挿入
+図の例を <<fig-doc-dev>> に示す。
+
+[[fig-doc-dev]]
+.図の例（PNG）
+image::doc-dev.png[]
+
+==== 表
+ドキュメント開発、 <<table-doc-dev>> に記載する。
+
+[[table-doc-dev]]
+.ドキュメント開発
+[cols="1,4,5", options="header"]
+|===
+|No.
+|項目
+|内容
+
+|①
+|項目は？
+|ドキュメント
+|===
+
+[appendix]
+= 改版履歴
