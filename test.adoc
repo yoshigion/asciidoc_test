@@ -31,14 +31,14 @@
 == 目的
 本ドキュメントは、GitHub上でのドキュメント開発機能をテストすることを目的とする。
 
-==== 図の挿入
+=== 図の挿入
 図の例を <<fig-doc-dev>> に示す。
 
 [[fig-doc-dev]]
 .図の例（PNG）
 image::doc-dev.png[]
 
-==== 表
+=== 表
 ドキュメント開発、 <<table-doc-dev>> に記載する。
 
 [[table-doc-dev]]
