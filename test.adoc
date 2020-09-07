@@ -23,6 +23,8 @@
 :author:
 :revnumber: 0.1
 :revdate: 2020/05/04
+:scripts: cjk
+:pdf-theme: default-with-fallback-font
 
 = Asciidocドキュメント開発機能テスト
 
@@ -54,3 +56,5 @@ image::doc-dev.png[]
 
 [appendix]
 = 改版履歴
+* 初版
+* asciidoctor-pdfのバージョンアップにより、asciidoctor-pdf-cjkは不要になり、scripts, pdf-themeを追加
