@@ -31,6 +31,27 @@
 == 目的
 本ドキュメントは、GitHub上でのドキュメント開発機能をテストすることを目的とする。
 
+=== UML
+[plantuml,alice-bob,svg,role=sequence]
+----
+alice -> bob
+----
+
+=== DITAA
+[ditaa,ttttttt,svg]
+....
++--------------+
+|              |
+| ttttttt      |--------->
+|              |
++--------------+
+....
+
+=== 上記のPDF出力
+```
+asciidoctor-pdf -r asciidoctor-diagram test.adoc
+```
+
 === 図の挿入
 図の例を <<fig-doc-dev>> に示す。
 
