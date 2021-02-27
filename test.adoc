@@ -31,6 +31,9 @@
 == 目的
 本ドキュメントは、GitHub上でのドキュメント開発機能をテストすることを目的とする。
 
+=== 英文
+English text is here.
+
 === UML
 [plantuml,alice-bob,svg,role=sequence]
 ----
@@ -52,6 +55,30 @@ alice -> bob
 asciidoctor-pdf -r asciidoctor-diagram test.adoc
 ```
 
+=== mermaid
+
+[mermaid, sequence]
+....
+sequenceDiagram
+    Title: 制御シーケンス
+    participant DD as DD
+    participant BB as BB
+    participant AA as AA
+....
+
+=== bit fields
+各ビット0になる
+
+|===
+|bit|名称|説明|
+|:--|:--|:--|
+|[0]|AAA  |aaaa |
+|[1]|BBB  |aaaa |
+|[2]|CCC  |aaaa |
+|[3]|DDD  |aaaa |
+|===
+
+
 === 図の挿入
 図の例を <<fig-doc-dev>> に示す。
 
@@ -66,13 +93,9 @@ image::doc-dev.png[]
 .ドキュメント開発
 [cols="1,4,5", options="header"]
 |===
-|No.
-|項目
-|内容
-
-|1
-|項目は？
-|ドキュメント
+|No.  |項目     |内容
+|1    |項目は？ |ドキュメント
+|2    |項目は？ |ドキュメント
 |===
 
 [appendix]
